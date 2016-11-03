@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云流化平台管理控制台</title>
+    <link href="/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/minified/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/minified/core.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/minified/components.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/minified/colors.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="/assets/js/core/libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/core/libraries/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/plugins/notifications/pnotify.min.js"></script>
+    <script type="text/javascript" src="/assets/js/plugins/notifications/sweet_alert.min.js"></script>
+    <script type="text/javascript" src="/assets/js/plugins/d3/d3.min.js"></script>
+    <script type="text/javascript" src="/assets/js/plugins/forms/bootstrap_multiselect.js"></script>
+    <script type="text/javascript" src="/assets/js/plugins/forms/uniform.min.js"></script>
+    <script type="text/javascript" src="/assets/js/components_notifications_pnotify.js"></script>
+    <script type="text/javascript" src="/assets/js/selects/select2.min.js"></script>
+    <script type="text/javascript" src="/assets/js/core/app.js"></script>
+    <script type="text/javascript" src="/assets/js/form_select2.js"></script>
+    <script type="text/javascript" src="/assets/js/tables/datatables/datatables.min.js"></script>
+    <script type="text/javascript" src="/assets/js/tables/datatables/extensions/fixed_columns.min.js"></script>
+    <script type="text/javascript" src="/assets/js/datatables_extension_fixed_columns.js"></script>
+
+    <style>
+        svg {
+            height:100%;
+            width:100%;
+            background-color: #FFF;
+            cursor: default;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+            text-align: center;
+        }
+
+        svg:not(.active):not(.ctrl) {
+            text-align: center;
+        }
+
+        path.link {
+            fill: none;
+            stroke: rgba(0, 0, 0, 0.28);
+            stroke-width: 4px;
+            cursor: default;
+        }
+
+        svg:not(.active):not(.ctrl) path.link {
+            text-align: center;
+        }
+
+        path.link.selected {
+            stroke-dasharray: 10,2;
+        }
+
+        path.link.dragline {
+            pointer-events: none;
+        }
+
+        path.link.hidden {
+            stroke-width: 0;
+        }
+
+        circle.node {
+            stroke-width: 1.5px;
+            cursor: pointer;
+        }
+
+        circle.node.reflexive {
+            stroke: rgba(0, 0, 0, 0.25) !important;
+            stroke-width: 2.5px;
+        }
+
+        text {
+            font: 20px sans-serif;
+            pointer-events: none;
+        }
+
+        text.id {
+            text-anchor: left;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap"></div>
+<script type="text/javascript" src="/main.js?32d67acf59a09f277975"></script></body>
+</html>
